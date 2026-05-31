@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\ScienceResultsWeb\\ScienceResultsWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\ScienceResultsProject\\ScienceResultsWeb\\ScienceResultsWeb.csproj",
       "projectName": "ScienceResultsWeb",
-      "projectPath": "C:\\Users\\Hp\\ScienceResultsWeb\\ScienceResultsWeb.csproj",
+      "projectPath": "C:\\Users\\Hp\\ScienceResultsProject\\ScienceResultsWeb\\ScienceResultsWeb.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\ScienceResultsWeb\\obj\\",
+      "outputPath": "C:\\Users\\Hp\\ScienceResultsProject\\ScienceResultsWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

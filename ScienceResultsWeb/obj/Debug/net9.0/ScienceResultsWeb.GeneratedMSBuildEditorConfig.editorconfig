@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ScienceResultsWeb
 build_property.RootNamespace = ScienceResultsWeb
-build_property.ProjectDir = C:\Users\Hp\ScienceResultsWeb\
+build_property.ProjectDir = C:\Users\Hp\ScienceResultsProject\ScienceResultsWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Hp\ScienceResultsWeb
+build_property.MSBuildProjectDirectory = C:\Users\Hp\ScienceResultsProject\ScienceResultsWeb
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/Authors/Create.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/Authors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/Authors/Index.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/Authors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/Error.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/Index.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/Privacy.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/Publishers.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/Publishers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/ResultTypes.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/ResultTypes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdWx0VHlwZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/ScientificResults.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/ScientificResults.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NpZW50aWZpY1Jlc3VsdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/ScientificResults/Create.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/ScientificResults/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NpZW50aWZpY1Jlc3VsdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/ScientificResults/Index.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/ScientificResults/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NpZW50aWZpY1Jlc3VsdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/_ViewImports.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/_ViewStart.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/ResultTypes/Create.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/ResultTypes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UmVzdWx0VHlwZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/ResultTypes/Index.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/ResultTypes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UmVzdWx0VHlwZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hp/ScienceResultsWeb/Pages/Shared/_Layout.cshtml]
+[C:/Users/Hp/ScienceResultsProject/ScienceResultsWeb/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6qdunbcxkx
