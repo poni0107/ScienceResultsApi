@@ -1,0 +1,14 @@
+@page
+@model ScienceResultsWeb.Pages.ResultTypes.CreateModel
+
+<h2>Add Result Type</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="ResultType.Name"></label>
+        <input asp-for="ResultType.Name" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-page="Index" class="btn btn-secondary">Back</a>
+</form>

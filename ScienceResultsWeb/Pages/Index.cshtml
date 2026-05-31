@@ -1,0 +1,82 @@
+﻿@page
+@model ScienceResultsWeb.Pages.IndexModel
+
+<div class="hero-section">
+    <h1>Scientific Results Database</h1>
+    <p>Web application for managing authors, scientific results, result types, publishers and references.</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-3">
+        <div class="dashboard-card">
+            <h5>Authors</h5>
+            <h2>@Model.AuthorsCount</h2>
+            <a asp-page="/Authors/Index">View authors</a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="dashboard-card">
+            <h5>Result Types</h5>
+            <h2>@Model.ResultTypesCount</h2>
+            <a asp-page="/ResultTypes">View types</a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="dashboard-card">
+            <h5>Scientific Results</h5>
+            <h2>@Model.ScientificResultsCount</h2>
+            <a asp-page="/ScientificResults">View results</a>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="dashboard-card">
+            <h5>Publishers</h5>
+            <h2>@Model.PublishersCount</h2>
+            <a asp-page="/Publishers">View publishers</a>
+        </div>
+    </div>
+</div>
+
+<div class="content-box mt-5">
+    <h3>Quick Search</h3>
+    <form method="get" action="/ScientificResults">
+        <div class="input-group">
+            <input type="text" name="search" class="form-control" placeholder="Search scientific results by title..." />
+            <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+    </form>
+</div>
+
+<div class="content-box mt-4">
+    <h3>Latest Scientific Results</h3>
+
+    @if (Model.LatestResults.Any())
+    {
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>DOI</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.LatestResults)
+                {
+                    <tr>
+                        <td>@item.Title</td>
+                        <td>@item.Year</td>
+                        <td>@item.DOI</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No scientific results available.</p>
+    }
+</div>

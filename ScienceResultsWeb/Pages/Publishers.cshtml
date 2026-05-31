@@ -1,0 +1,35 @@
+@page
+@model ScienceResultsWeb.Pages.PublishersModel
+
+<h1>Publishers</h1>
+
+<div class="content-box">
+    <h3>Add Publisher</h3>
+
+    <form method="post" class="mb-3">
+        <input asp-for="NewPublisher.Name" class="form-control mb-2" placeholder="Publisher name" />
+        <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+</div>
+
+<div class="content-box mt-4">
+    <h3>All Publishers</h3>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Publishers)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

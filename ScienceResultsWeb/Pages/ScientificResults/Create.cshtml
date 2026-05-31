@@ -1,0 +1,31 @@
+@page
+@model ScienceResultsWeb.Pages.ScientificResults.CreateModel
+
+<h2>Add Scientific Result</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="ScientificResult.Title"></label>
+        <input asp-for="ScientificResult.Title" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ScientificResult.Year"></label>
+        <input asp-for="ScientificResult.Year" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ScientificResult.DOI"></label>
+        <input asp-for="ScientificResult.DOI" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ScientificResult.ResultTypeId">Result Type</label>
+        <select asp-for="ScientificResult.ResultTypeId" asp-items="Model.ResultTypeOptions" class="form-select">
+            <option value="">-- select result type --</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-page="Index" class="btn btn-secondary">Back</a>
+</form>

@@ -1,0 +1,29 @@
+@page
+@model ScienceResultsWeb.Pages.Authors.CreateModel
+
+<h2>Add Author</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Author.FirstName"></label>
+        <input asp-for="Author.FirstName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Author.LastName"></label>
+        <input asp-for="Author.LastName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Author.Institution"></label>
+        <input asp-for="Author.Institution" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Author.Email"></label>
+        <input asp-for="Author.Email" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-page="Index" class="btn btn-secondary">Back</a>
+</form>

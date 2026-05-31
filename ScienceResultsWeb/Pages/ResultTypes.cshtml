@@ -1,0 +1,27 @@
+@page
+@model ScienceResultsWeb.Pages.ResultTypesModel
+
+<h1>Result Types</h1>
+
+<form method="post" class="mb-3">
+    <input asp-for="NewResultType.Name" class="form-control" placeholder="Result type name" />
+    <button type="submit" class="btn btn-primary mt-2">Add</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ResultTypes)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

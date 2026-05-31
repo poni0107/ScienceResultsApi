@@ -1,0 +1,59 @@
+@page
+@model ScienceResultsWeb.Pages.ScientificResultsModel
+
+<h1>Scientific Results</h1>
+
+<div class="content-box">
+    <h3>Search</h3>
+    <form method="get" class="mb-3">
+        <div class="input-group">
+            <input type="text" name="search" value="@Model.Search" class="form-control" placeholder="Search by title, DOI or year..." />
+            <button type="submit" class="btn btn-primary">Search</button>
+            <a asp-page="/ScientificResults" class="btn btn-secondary">Reset</a>
+        </div>
+    </form>
+</div>
+
+<div class="content-box mt-4">
+    <h3>Add Scientific Result</h3>
+
+    <form method="post" class="mb-3">
+        <input asp-for="NewResult.Title" class="form-control mb-2" placeholder="Title" />
+        <input asp-for="NewResult.Year" class="form-control mb-2" placeholder="Year" />
+        <input asp-for="NewResult.DOI" class="form-control mb-2" placeholder="DOI" />
+        <input asp-for="NewResult.Url" class="form-control mb-2" placeholder="URL" />
+        <input asp-for="NewResult.ResultTypeId" class="form-control mb-2" placeholder="Result Type ID" />
+
+        <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+</div>
+
+<div class="content-box mt-4">
+    <h3>All Scientific Results</h3>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Year</th>
+                <th>DOI</th>
+                <th>URL</th>
+                <th>Result Type ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Results)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Title</td>
+                    <td>@item.Year</td>
+                    <td>@item.DOI</td>
+                    <td>@item.Url</td>
+                    <td>@item.ResultTypeId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
