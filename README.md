@@ -1,3 +1,46 @@
+## Project Assignment
+
+The goal of this project is to develop a web application for managing a database of scientific results. The system should support different categories of scientific outputs, including:
+
+* Journal articles
+* Conference papers (published in conference proceedings)
+* Scientific monographs
+* Book chapters
+* Patents
+* Technical solutions
+* Datasets
+* Software
+* AI models
+* Other scientific and research outputs
+
+The application should provide the following functionalities:
+
+* Management of authors of scientific results
+* Management of all types of scientific results
+* Establishing relationships between scientific results and their authors, references, and related entities
+* Search, filtering, and presentation of scientific results according to different criteria
+* Storage and management of research-related metadata
+
+The database must contain a minimum of eight relational tables and include both:
+
+* One-to-Many relationships
+* Many-to-Many relationships
+
+The project was implemented using ASP.NET Core, Razor Pages, Entity Framework Core, and SQLite.
+
+---
+
+### Assignment Author
+
+**Project assignment defined by:**
+
+Prof. Dr. Velibor Isailović
+
+Faculty of Engineering Sciences
+University of Kragujevac
+
+Software Engineering 2 Course
+
 
 # Science Results Management System
 
