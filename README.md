@@ -562,3 +562,17 @@ The frontend does not access the database directly. Instead, it communicates wit
 This project represents a complete scientific results management system. It demonstrates the use of ASP.NET Core, Razor Pages, Web API, Entity Framework Core, SQLite, relational database design, CRUD operations, many-to-many relationships, one-to-many relationships, data search and a styled user interface.
 
 The application can be expanded further by adding authentication, advanced filtering, export to PDF/Excel, user roles and detailed reporting.
+
+
+## Entity Relationship Diagram (ER Diagram)
+
+The following diagram illustrates the database structure and relationships between entities used in the application.
+
+The database contains:
+
+- One-to-Many relationships
+- Many-to-Many relationships
+- Junction table (AuthorScientificResults)
+- Support for authors, scientific results, publishers, journals, conferences, references, and result types
+
+![ER Diagram](docs/er-diagram.png.png)
